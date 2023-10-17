@@ -1,0 +1,54 @@
+
+*{
+  background-color: white;
+}
+ .Main-div{
+    
+    width: 91px;
+    background-color: black;
+   
+}
+.button{
+    background-color: black;
+    color: rgb(224, 210, 210);
+    border-radius: 0px;
+    border: none;
+    
+
+}
+#input{
+    border-color: rgb(218, 204, 204);
+    border: none;
+    height: 13.5px;
+    width: 65.5px;
+    border: 1px solid white  
+    
+    
+}
+.button-end{
+    background-color:rgb(132, 141, 151);
+    border: none;
+
+}
+#button-1{
+    width: 22px;
+    height: 18px;
+    background-color:rgb(76, 218, 170);
+    color: white;
+    margin-left: -4.5px;
+    text-align: center;
+    border-color: rgb(50, 255, 187);
+} 
+.result-clear{
+    width: 20px;
+}
+#Display{
+    width: 82px;
+}
+#search{
+    width: 80px;
+}
+
+#clear-button{
+    width: 20px;
+}
