@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Survey form.css">
+</head>
+<body>
+    <div>
+        <div class="container"><h1 >Customer Survey form</h1>
+        <br>
+        <form action="#">
+            <div class="user details">
+            
+            <div class="input-box">
+             <span class="details"> First Name*:</span>
+                 <input type="text" name="" id="fname" placeholder="Enter Your First Name" >
+                 <br><span id="span">This field should not be empty</span>
+            </div>
+            <br>
+            <div class="input-box">
+             <span class="details"> Date of Birth* :</span>
+                 <input type="date" name="" id=" " >
+                 <br><span id="span">This field should not be empty</span>
+            </div>
+            <br>
+         <div>
+             <label for="" id="gender">Gender:</label >
+                 <input type="checkbox" name="" class="checkbox">
+             <label for="">Male</label>
+             <input type="checkbox" name="" class="checkbox" value="Gender">
+             <label for="">Female</label>
+             <input type="checkbox" name="" class="checkbox" >
+             <label for="">Other</label>
+             
+         </div>
+         <br>
+            <div class="input-box">
+             <label class="details">Email* :</label>
+                 <input type="email" name="" id="email" placeholder="Enter Your Email" >
+                 <br><span id="span">This field should not be empty</span>
+            </div>
+         <br>
+         
+            
+            <br>
+            <div class="input-box">
+             
+                 <button style="margin-left: 80px; " id="btn1">Submit</button>
+                 <button style="margin-left: 250px;" id="btn2" onclick="reset">Reset⟳ </button>
+            </div>
+            </div>
+        </div>
+
+        <!-- right-side content start -->
+        <div id="right-side">
+            <br>
+            <div class="input-box">
+             <lable class="details"> Last Name* :</lable>
+                 <input type="text" name="" id="lname" placeholder="Enter Your Last Name" >
+                 <br>
+                 <span id="span">This field should not be empty</span>
+            </div>
+            <br>
+            Select Your Country:
+            <select name="Country" id="Drop-down">
+                <option value="Select" >Select</option > 
+             <option value="India">India</option>
+             <option value="USA">USA</option>
+             <option value="Canada">Canada</option>
+             <option value="Bulgaria">Bulgaria</option>
+             <option value="Australia">Australia</option>
+             <option value="Costa Rica">Costa Rica</option>
+             <option value="Germany">Germany</option>
+             <option value="France">France</option>
+             <option value="Brazil">Brazil</option>
+             <option value="Italy">Italy</option>
+             <option value="Combodia">Combodia</option>
+         </select>
+         <br><br>
+         <div class="input-box">
+            <label class="details"> Profession:</label>
+                <input type="text" name="" id="text" ><br>
+                <span id="span">This field should not be empty</span>
+           </div>
+           <br>
+
+           <div class="input-box">
+            <span class="details"> Mobile :</span>
+                <input type="number" name="" id="phone" placeholder="Enter Your Phone Number" >
+                <span id="span">This field should not be empty</span>
+           </div>
+
+        </div>
+    </div>
+        </form>
+   <script src="./Survey form.js"></script>
+   
+</body>
+</html>
